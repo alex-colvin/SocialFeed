@@ -4,6 +4,7 @@ import './Components/CreatePost/CreatePost'
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import Post from './Components/Post/Post'
+import './App.css'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
 
   return (
     <div className="App">
-      <CreatePost createPost={addNewPost} />
+      <header className='App-header'>Alex Colvin's Public Website For Private Topics</header>
+      <CreatePost createPost={addNewPost} className='post-form'/>
       <DisplayPosts posts={posts} />
       
       
