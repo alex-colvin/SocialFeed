@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <header className='App-header'>
         <div className='navbar'>
-          <h2>ALEX COLVIN'S WEBSITE FOR POSTING</h2>
+          <h2>ALEX COLVIN'S WEBSITE FOR POSTING ABOUT THINGS</h2>
             <NavBar />
         </div>
       </header>
