@@ -43,14 +43,18 @@ const Post = (props) => {
     }
     
     return(
-        <div className=''>
-            <h4>{props.name}</h4>
-            <div>{props.post}</div>          
-            <div>
-                <button className={likeTrue ? 'btn btn-primary': 'btn btn-outline-primary'} onClick={() => {likePost()}}>{like}</button>
-                <button className={dislikeTrue ? 'btn btn-danger': 'btn btn-outline-danger'}  onClick={() => {dislikePost()}}>{dislike}</button>
+        <div className='post'>
+            <h5>{props.name}</h5>
+            <div className='post-text'>{props.post}</div>          
+            <div className='buttons-div'>
+                <div className='button-div'>
+                    <button className={likeTrue ? 'btn btn-primary': 'btn btn-outline-primary'} onClick={() => {likePost()}}>{like}</button>
+                </div>
+                <div className='button-div'>
+                    <button className={dislikeTrue ? 'btn btn-danger': 'btn btn-outline-danger'}  onClick={() => {dislikePost()}}>{dislike}</button>
+                </div>
             </div>
-            <div>{timeCreated}</div>
+            <div className='date'>{timeCreated}</div>
         </div>
     );
 }

@@ -1,9 +1,10 @@
 import Post from '../Post/Post';
+import './DisplayPosts.css'
 
 const DisplayPosts = (props) => {
     return (
         <div className='message-board'>
-        <h2>Take a look at what everyone is talking about!</h2>         
+        <div className='display-head'>Take a look at what everyone is talking about!</div>         
           <>
               {props.posts.map((entry, index) => {              
                 return(

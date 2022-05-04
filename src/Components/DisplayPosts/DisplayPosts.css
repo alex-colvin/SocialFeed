@@ -1,9 +1,19 @@
+.display-head {
+    text-align: center;
+    background-color: rgb(42, 120, 184);
+    color: white;
+    font-size: 22px;
+}
 .message-board {
     width: 70%;
     border: 20px;
-    border-color: black;
-    margin: 20px;
+    border-style: solid;
+    border-color: rgb(213, 218, 240);
+    border-width: 3px;
+    margin: 1rem;
     position: relative;
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(240, 242, 250);
+    width: 70%;
+    margin-left: 15%;
 }
