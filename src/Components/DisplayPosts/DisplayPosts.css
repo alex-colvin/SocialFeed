@@ -1,0 +1,9 @@
+.message-board {
+    width: 70%;
+    border: 20px;
+    border-color: black;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+}

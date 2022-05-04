@@ -2,8 +2,8 @@ import Post from '../Post/Post';
 
 const DisplayPosts = (props) => {
     return (
-        <>
-        <h1>Feed</h1>         
+        <div className='message-board'>
+        <h2>Take a look at what everyone is talking about!</h2>         
           <>
               {props.posts.map((entry, index) => {              
                 return(
@@ -13,7 +13,7 @@ const DisplayPosts = (props) => {
                 )
               })}
           </>
-          </>       
+          </div>       
      );
 }
 

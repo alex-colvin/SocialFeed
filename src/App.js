@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className='App-header'>Alex Colvin's Public Website For Private Topics</header>
+      <header className='App-header'>ALEX COLVIN's WEBSITE FOR POSTING</header>
       <CreatePost createPost={addNewPost} className='post-form'/>
       <DisplayPosts posts={posts} />
       

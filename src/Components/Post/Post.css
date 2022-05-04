@@ -1,7 +1,19 @@
+h4 {
+    text-align: left;
+    background-color: purple;
+}
 .likeButton{
     background-color: green;
 }
 
 .dislikeButton{
     background-color: red;
+}
+
+.post {
+    border-color: black;
+    border-width: 5px;
+    margin: 3em;
+    padding: 20px;
+    background-color: blueviolet;
 }

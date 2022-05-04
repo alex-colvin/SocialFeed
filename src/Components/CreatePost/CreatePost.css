@@ -1,8 +1,10 @@
 .form-grid {
-    display: grid;
+    display: inline-block;
     border: 1rem;
-    width: 60%;
-    background-color: aquamarine;
-    margin: 2rem;
+    width: 70%;
+    background-color: rgb(240, 242, 250);
     border-radius: 5px;
+    position: relative;    
+    border-left: 20px;
 }
+
