@@ -26,7 +26,7 @@ const CreatePost = (props) => {
                     <label>What would you like to share? </label>
                     <input type='text' className='form-control' value={post} onChange={(event) => setPost(event.target.value)} />
                 </div>
-                <button className='btn btn-primary' type='submit'>Post</button>
+                <div className='btn-wrap'><button className='btn btn-primary' type='submit'>Post</button></div>
             </form>
         </div>
 
