@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  container_name: socialfeed
+  imagae: alexcolvin/socialfeed
+  ports:
+    -"80:80"
